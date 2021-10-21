@@ -1,0 +1,856 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .call_text {
+        font-size: 14px;
+    }
+
+    .social_icon_top li a {
+        margin: 0px 2px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 4px 10px;
+        font-size: 16px;
+    }
+    .donate_bt a {
+        font-size: 16px;
+        padding: 4px 0px;
+    }
+
+    .banner_section {
+        background-size: cover;
+        padding: 100px 0px;
+    }
+    .banner_taital_main {
+        padding: 0px;
+    }
+
+    .about_text {
+        width: 100%;
+    }
+
+    .about_box {
+        padding: 40px 80px;
+    }
+    .about_box_1 {
+        padding: 40px 80px;
+    }
+    .about_main {
+        bottom: -20px;
+    }
+    .about_taital{
+        padding-top: 0px;
+    }
+
+    .box_main {
+        width: 85%;
+        padding: 40px 10px;
+        top: 210px;
+        margin-left: 9px;
+    }
+
+    .blog_img {
+        margin-top: 20px;
+    }
+
+    .video_bt {
+        padding: 55px 0px;
+    }
+
+    #my_slider a.carousel-control-next{
+        right: 0px;
+    }
+    #my_slider a.carousel-control-prev{
+        left: 0px;
+    }
+
+    .news_section_2 {
+        height: 405px;
+    }
+
+    .news_taital_main {
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }  
+
+    .readmore_bt_1 {
+        margin-top: 40px;
+    } 
+
+    .footer_text {
+        width: 100%;
+    }
+
+    .border_left15 {
+        padding-left: 10px;
+    } 
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 0;
+        top: 105%;
+    }
+
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 0;
+        top: 105%;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .call_text {
+        display: none;
+    }
+
+    .social_icon_top {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    .social_icon_top li a {
+        margin: 0px 14px;
+        width: 44px;
+    }
+
+    .logo {
+        width: 40%;
+        float: left;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .banner_section {
+        background-size: cover;
+    }
+
+    .banner_taital {
+        font-size: 40px;;
+        line-height: 50px;
+    }
+
+    .also_text {
+        width: 100%;
+    }
+
+    .started_text a {
+        padding: 8px 7px;
+        font-size: 16px;
+    }
+
+    .started_text {
+        margin: 0px 5px;
+    }
+
+    .banner_taital_main {
+        padding: 0px 0px 100px 0px;
+    }
+    .about_taital{
+        padding-top: 0px;
+    }
+
+    .about_box {
+        padding: 30px 45px;
+    }
+    .about_box_1 {
+        padding: 30px 45px;
+    }
+
+    .about_main {
+        bottom: 90px;
+    }
+
+    .box_main {
+        width: 80%;
+        margin-left: 9px;
+        top: 150px;
+    }
+
+    .box_main {
+        padding: 20px 10px;
+    } 
+    .middle_text {
+        font-size: 13px;
+    } 
+
+    .children_text {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .blog_img img {
+        width: 100%;
+        margin-top: 140px;
+    }
+
+    .news_taital_main {
+        padding: 20px 20px 0px 0px;
+    }
+
+    .dummy_text {
+        font-size: 14px;
+    }
+
+    .news_text {
+        font-size: 18px;
+    }
+
+    .news_img img {
+        height: 460px;
+    }
+
+    #my_slider a.carousel-control-next{
+        right: 0px;
+    }
+    #my_slider a.carousel-control-prev{
+        left: 0px;
+    }
+
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .about_section {
+        padding-bottom: 0px;
+    }
+
+    .causes_text {
+        font-size: 14px;
+    }
+    .causes_img {
+        margin-top: 20px;
+    }
+    .causes_img img {
+        width: 100%;
+    }
+
+    .blog_text {
+        font-size: 30px;
+    }
+
+    .blog_left {
+        width: 40%;
+    }
+
+    .blog_right {
+        width: 60%;
+        padding-left: 0px;
+    }
+
+    .looked_text {
+        font-size: 14px;
+    }
+    .blog_img img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .blog_box_main {
+        width: 175px;
+    }
+
+    .looked_text {
+        padding-bottom: 10px;
+    }
+
+    .water_text{
+        padding-top: 10px;
+    }
+
+    .mission_section {
+        padding: 50px 0px;
+        background-size: cover;
+    }
+    .mission_text{
+        width: 100%;
+    }
+
+    .video_bt {
+        width: 100%;
+        padding: 45px 0px;
+    }
+
+    .contact_taital {
+        font-size: 40px;
+    }
+
+    .donatior_taital {
+        font-size: 40px;
+    }
+
+    .lorem_text {
+        width: 95%;
+        margin-top: 30px;
+        padding: 30px 10px;
+    }
+    .news_section_2 {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .readmore_bt_1 {
+        margin-top: 30px;
+    }
+
+    .useful_text {
+        padding-top: 20px;
+    }
+
+    .footer_text {
+        width: 100%;
+    }
+
+    .border_left15 {
+        padding-left: 15px;
+    }
+
+    .social_icon::after {
+        width: 90%;
+    }
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 0;
+        top: 105%;
+    }
+
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 0;
+        top: 105%;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .call_text {
+        display: none;
+    }
+
+    .social_icon_top {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    .social_icon_top li a {
+        margin: 0px 14px;
+        width: 44px;
+    }
+
+    .logo {
+        width: 40%;
+        float: left;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .banner_section {
+        background-size: cover;
+    }
+
+    .banner_taital {
+        font-size: 40px;;
+        line-height: 50px;
+    }
+
+    .also_text {
+        width: 100%;
+    }
+
+    .started_text a {
+        padding: 8px 7px;
+        font-size: 16px;
+    }
+
+    .started_text {
+        margin: 0px 5px;
+    }
+
+    .banner_taital_main {
+        padding: 0px 0px 100px 0px;
+    }
+    .about_taital{
+        padding-top: 30px;
+    }
+
+    .about_main{
+        display: none;
+    }
+
+    .about_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .about_section {
+        padding-bottom: 0px;
+    }
+
+    .causes_text {
+        font-size: 14px;
+    }
+
+    .box_main {
+        width: 80%;
+        margin-left: 39px;
+        top: 490px;
+    }
+
+    .causes_img {
+        margin-top: 20px;
+    }
+    .causes_img img {
+        width: 100%;
+    }
+
+    .blog_text {
+        font-size: 30px;
+    }
+
+    .blog_left {
+        width: 40%;
+    }
+
+    .blog_right {
+        width: 60%;
+        padding-left: 0px;
+    }
+
+    .looked_text {
+        font-size: 14px;
+    }
+    .blog_img img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .blog_img img {
+        width: 100%;
+    }
+
+    .blog_box_main {
+        width: 175px;
+    }
+
+    .looked_text {
+        padding-bottom: 10px;
+    }
+
+    .water_text{
+        padding-top: 10px;
+    }
+
+    .mission_section {
+        padding: 50px 0px;
+        background-size: cover;
+    }
+    .mission_text{
+        width: 100%;
+    }
+
+    .video_bt {
+        width: 100%;
+        padding: 45px 0px;
+    }
+
+    .contact_taital {
+        font-size: 40px;
+    }
+
+    .donatior_taital {
+        font-size: 40px;
+    }
+
+    .lorem_text {
+        width: 95%;
+        margin-top: 30px;
+        padding: 30px 10px;
+    }
+
+    #my_slider a.carousel-control-next{
+        display: none;
+    }
+    #my_slider a.carousel-control-prev{
+        display: none;
+    }
+
+    .news_taital_main {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .dummy_text {
+        font-size: 15px;
+    }
+
+    .news_section_2 {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .readmore_bt_1 {
+        margin-top: 30px;
+    }
+
+    .useful_text {
+        padding-top: 20px;
+    }
+
+    .footer_text {
+        width: 100%;
+    }
+
+    .border_left15 {
+        padding-left: 15px;
+    }
+
+    .social_icon::after {
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .navbar-toggler {
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .call_text {
+        display: none;
+    }
+
+    .social_icon_top {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        float: none;
+    }
+
+    .social_icon_top li a {
+        margin: 0px 14px;
+        width: 44px;
+    }
+
+    .logo {
+        width: 40%;
+        float: left;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .banner_section {
+        background-size: cover;
+    }
+
+    .banner_taital {
+        font-size: 40px;;
+        line-height: 50px;
+    }
+
+    .also_text {
+        width: 100%;
+    }
+
+    .started_text a {
+        padding: 8px 7px;
+        font-size: 16px;
+    }
+
+    .started_text {
+        margin: 0px 5px;
+    }
+
+    .banner_taital_main {
+        padding: 0px 0px 100px 0px;
+    }
+
+    .about_main{
+        display: none;
+    }
+
+    .about_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .about_taital{
+        padding-top: 0px;
+    }
+
+    .about_text {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .about_section .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about_section {
+        padding-bottom: 0px;
+    }
+
+    .causes_text {
+        font-size: 14px;
+    }
+
+    .box_main {
+        width: 85%;
+        margin-left: 9px;
+        top: 200px;
+    }
+
+    .causes_img {
+        margin-top: 20px;
+    }
+
+    .blog_text {
+        font-size: 30px;
+    }
+
+    .blog_taital_main {
+        display: block;
+    }
+
+    .blog_left {
+        width: 100%;
+        display: flex;
+    }
+
+    .blog_right {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .blog_img img {
+        width: 100%;
+    }
+
+    .looked_text {
+        padding-bottom: 30px;
+    }
+
+    .water_text{
+        padding-top: 30px;
+    }
+
+    .mission_section {
+        padding: 50px 0px;
+        background-size: cover;
+    }
+    .mission_text{
+        width: 100%;
+    }
+
+    .video_bt {
+        width: 100%;
+        padding: 45px 0px;
+    }
+
+    .contact_taital {
+        font-size: 40px;
+    }
+
+    .donatior_taital {
+        font-size: 40px;
+    }
+
+    .lorem_text {
+        width: 95%;
+        margin-top: 30px;
+        padding: 30px 10px;
+    }
+
+    #my_slider a.carousel-control-next{
+        display: none;
+    }
+    #my_slider a.carousel-control-prev{
+        display: none;
+    }
+
+    .news_taital_main {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .dummy_text {
+        font-size: 15px;
+    }
+
+    .news_section_2 {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .readmore_bt_1 {
+        margin-top: 30px;
+    }
+
+    .useful_text {
+        padding-top: 20px;
+    }
+
+    .social_icon::after {
+        width: 90%;
+    }
+
+
+}
